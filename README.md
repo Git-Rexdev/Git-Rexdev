@@ -1,5 +1,5 @@
 <h1 align="center">Hi , I'm Manmohan Zanwar</h1>
-<h3 align="center">A passionate AIML developer from India</h3>
+<h3 align="center">Passionate developer with expertise in Front-End Development, Machine Learning, and Cloud Technologies. I enjoy building scalable solutions, optimizing performance, and solving real-world problems with AI and Data Science.</h3>
 
 - 🌱 I’m currently learning **Advance backend development, AIML & different databases**
 
