@@ -11,7 +11,7 @@ import re
 load_dotenv()
 
 # Configure Google API Key
-genai.configure(api_key=os.getenv("GENAI_API_KEY"))
+genai.configure(api_key="AIzaSyD-7uW0_vHEzYdLR9BTUUevHoDEmDgy6OM")
 
 # Extract text from PDF
 def extract_text_from_pdf(pdf_path):
