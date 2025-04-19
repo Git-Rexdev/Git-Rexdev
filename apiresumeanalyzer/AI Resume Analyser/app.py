@@ -7,9 +7,6 @@ import pytesseract
 import pdfplumber
 import re
 
-# Load environment variables
-load_dotenv()
-
 # Configure Google API Key
 genai.configure(api_key="AIzaSyD-7uW0_vHEzYdLR9BTUUevHoDEmDgy6OM")
 
