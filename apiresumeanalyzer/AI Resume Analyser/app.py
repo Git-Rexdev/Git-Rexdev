@@ -10,7 +10,6 @@ import re
 # Configure Google API Key
 genai.configure(api_key="AIzaSyD-7uW0_vHEzYdLR9BTUUevHoDEmDgy6OM")
 
-# Extract text from PDF
 def extract_text_from_pdf(pdf_path):
     text = ""
     try:
@@ -34,7 +33,6 @@ def extract_text_from_pdf(pdf_path):
 
     return text.strip()
 
-# Get response from GeminiAI
 def analyze_resume(resume_text, job_description=None):
     if not resume_text:
         return {"error": "Resume text is required for analysis."}
@@ -78,7 +76,6 @@ def analyze_resume(resume_text, job_description=None):
 
     return analysis, score
 
-# Streamlit UI
 st.set_page_config(page_title="AI Resume Analyser", layout="wide")
 
 st.title("AI Resume Analyser")
@@ -122,7 +119,6 @@ if st.button("Analyse Resume"):
     else:
         st.warning("Upload your resume before analysis.")
 
-# Footer
 st.markdown("""
 ---
 <p style='text-align: center;'>Made by <b>Team Error-404</b> | Prabal 2025 GDG on Campus SGU</p>
