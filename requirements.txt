@@ -1,6 +1,0 @@
-pdf2image
-pdfplumber
-pytesseract
-python-dotenv
-streamlit
-google.generativeai
